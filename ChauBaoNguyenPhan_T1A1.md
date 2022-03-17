@@ -2,7 +2,7 @@
 
 ## `Q1. Identify and explain common and important components and concepts of web development markup languages`
 
-> A markup language is a language used in web documents or applications (in industries such as vector graphics, content syndication or interface creation), that annotates text so that it may be manipulated by a computer. 
+*A markup language is a language used in web documents or applications (in industries such as vector graphics, content syndication or interface creation), that annotates text so that it may be manipulated by a computer.*
 
 To distinguish themselves from text, most markup languages are human-readable, invisible to reader of a website or document, and can only be view by accessing the source code. They are also get read and rendered as opposed to programming’s executed unintelligible syntax.
 
@@ -15,13 +15,11 @@ There are many markup languages but the most used for web development are:
 * __XML__ – eXtensible Markup Language (designed for storing and transporting data)
 * __XHTML__ – eXtensible Hypertext Markup Language (is a combination of HTML and XML)
 
-___
-
 ## `Q2. Define the features of the following technologies that are essential in terms of the development of the internet and explain how each technology has contributed to the development of the internet:`
 
 ## __Packets__ 
 
-> Data such as email, images, video, etc. when sent from one IP to another IP over computer networks such as the internet get broken down into smaller fragments called packets.
+*Data such as email, images, video, etc. when sent from one IP to another IP over computer networks such as the internet get broken down into smaller fragments called packets.*
 
 Each packets contains 1,000 - 1,500 bytes which includes:
 * A header: includes IP addresses of the sender and receiver
@@ -31,11 +29,11 @@ These packets get sent off by the best available route as this makes the network
 
 ## __IP addresses (IPv4 and IPv6)__
 
-> An IP (Internet Protocol) address is a numerical identification assigned to each device connected to a computer network that communicates using the IP protocol. An IP address serves as a unique identification for a single device on a network.
+*An IP (Internet Protocol) address is a numerical identification assigned to each device connected to a computer network that communicates using the IP protocol. An IP address serves as a unique identification for a single device on a network.*
 
 An IP address is also known as an IP number or an Internet address, it serves the purpose of providing an address for devices to send and receive messages (aka. data) over computer networks such as the internet.
 
-Some differences between IPv4 vs IPv6:
+**Some differences between IPv4 vs IPv6:**
 
 IPv4: 
 * 32-Bit IP address
@@ -51,11 +49,11 @@ IPv4 is the fourth version of the Internet Protocol (IP), whereas IPv6 is the la
 
 ## __Routers and Routing__
 
-> **Routers** are hardware devices developed with the main purpose of finding the most efficient path through which the IP packets can be transferred from source to destination across networks.
+***Routers** are hardware devices developed with the main purpose of finding the most efficient path through which the IP packets can be transferred from source to destination across networks.*
 
 It checks IP packet headers, including the destination address, and consults a table of known network. The table specifies which connections should be utilised as the next link to send each packet. 
 
-> **Routing** is the process of selecting the best route for sending data packets and can be divided into two categories of static and dynamic.
+***Routing** is the process of selecting the best route for sending data packets and can be divided into two categories of static and dynamic.*
 
 * Static: routes are set manually and must be corrected manually if there are changes in the networks
 
@@ -65,11 +63,11 @@ It checks IP packet headers, including the destination address, and consults a t
 
 ## __Domains and DNS__
 
-> **Domains** also known as domain name, URL (Uniform Resource Locator), web address is an identifier that the internet users can use to find the location of a website.
+***Domains** also known as domain name, URL (Uniform Resource Locator), web address is an identifier that the internet users can use to find the location of a website.*
 
 A **domain** could be linked to multiple IP addresses. A domain name can contain a minimum of 1 and a maximum of 63 characters.
 
-> **DNS** (Domain Name System) helps computers talk to each other by converting a host name (i.e., www.google.com) to IP addresses such as 8.8.8.8.) adding efficiency and even security in the process, it's basically the internet's phonebook.
+***DNS** (Domain Name System) helps computers talk to each other by converting a host name (i.e., www.google.com) to IP addresses such as 8.8.8.8.) adding efficiency and even security in the process, it's basically the internet's phonebook.*
 
 **DNS** is managed by a non-profit organisation called internet Corporation for Assigned Names and Numbers (ICANN), which develops and executes the policies for domain names.
 
@@ -79,24 +77,26 @@ A **domain** could be linked to multiple IP addresses. A domain name can contain
 
 ## __TCP__
 
-> **TCP** (Transmission Control Protocol) is used in conjunction with IP and commonly referred to as TCP/IP suite as it's one of the main protocols of the Internet protocol suite.
+***TCP** (Transmission Control Protocol) is used in conjunction with IP and commonly referred to as TCP/IP suite as it's one of the main protocols of the Internet protocol suite.*
 
 TCP's main purpose is to check the packets sent from the server for errors, ask for packets to be resent, assembling them once arrived at the client's device and let the sender know whether the packets has been received successfully. It maintains a connection with the sender from the very beginning and end of this process, and *"a connection between client and server is established before data can be sent."* (Wikipedia, 2022)
 
 ## __HTTP and HTTPS__
 
 
-> **HTTP** (Hypertext Transfer Protocol) is a method of data communication for the internet, it focuses on presenting the information but neglects on how the information is being transfer from one location to another
+***HTTP** (Hypertext Transfer Protocol) is a method of data communication for the internet, it focuses on presenting the information but neglects on how the information is being transfer from one location to another.*
 
 Data transfer using **HTTP** can be intercepted and manipulated by third parties, exposing both the information and the receiver of these information in danger.
 
-> **HTTPS** is a similar but younger, more advanced, and more secure version of HTTP. The "S" stands for the word "Secure”, HTTPS originally uses SSL (Secure Sockets Layer) to move data, but it is now replaced by (TLS) Transport Layer Security (TLS) the *"security technology that establishes an encrypted connection between a web server and a browser.”* (Vukadinovic, 2018)
+***HTTPS** is a similar but younger, more advanced, and more secure version of HTTP.*
+
+The "S" stands for the word "Secure”, HTTPS originally uses SSL (Secure Sockets Layer) to move data, but it is now replaced by (TLS) Transport Layer Security (TLS) the *"security technology that establishes an encrypted connection between a web server and a browser.”* (Vukadinovic, 2018)
 
 **HTTPS** helps secure data transfer between the client and server.
 
 ## __Web browsers (requests, rendering and developer tools)__
 
-> A **web brower** is an application software that can be use by people around the world to access the World Wide Web via devices such as desktops, laptops, tablets, mobiles, etc.
+*A **web brower** is an application software that can be use by people around the world to access the World Wide Web via devices such as desktops, laptops, tablets, mobiles, etc.*
 
 **Requests** are sent from the client to a server connected to the internet to retrieve information (data). The data is then transferred via HTTP and a piece of software known as a **rendering** engine is used to convert it into text and graphics. This information is written in Hypertext Markup Language (HTML), and web browsers process this code to display on our devices. **Developer tools** were created to help web developers with the main purpose of debugging code and testing user interface, they are part of an add-ons or built-in features of a web browser. (Wikipedia, 2022)
 
@@ -104,39 +104,89 @@ Data transfer using **HTTP** can be intercepted and manipulated by third parties
 
 ## __Arrays__
 
+**Array** is a data structure represents a collection of ordered, integer-indexed values (string, number, symbols, etc). Array positive index starts from 0 and negative index starts from -1. Arrays can be used to collect items, retrieve result from a loop and as the foundation for more complex data structure.
 
+Example of what assigning values an Array looks like:
+
+```
+array_name = [value_1, value_2, value_3]
+```
 
 ## __Hashes__
 
+Hash is another data structure that assigned a key for every value, so that the value can be looked up using the key. The key in a key/value pair can be anything (string, integer, symbol, etc.) and you can have as many key/value pairs as you need in a hash. These key/value pairs must be surrounded by curly braces { } and separated by commas (,)
 
+•	Some uses of Hash include naming and initialize objects, naming method arguments, counting characters in a string, find duplicates inside an array, mapping words to definitions, names to phone numbers, etc. (RubyGuides, 2022)
 
-## __Binary Trees__
+Example of what an old Hash syntax uses symbols as keys looks like:
+```
+{:one => "value_1", :two => "value_2", :three => "value_3"}
+```
 
+Example of what a new Hash syntax uses symbols as keys looks like:
+```
+{one: "value_1", two: "value_2", three: "value_3"}
+```
 
+## __Trie__
+
+A Trie (aka. digital tree or prefix tree) is a tree data structure used for locating keys inside a set. *“These keys are most often strings, with links between nodes defined not by the entire key, but by individual characters”* (Wikipedia, 2022). It's useful for working with words, swiftly looking for terms that begin with a prefix or searching for the entire word; and it’s commonly used in word games, spelling checkers and auto complete suggestions. (RubyGuides, 2022)
 
 ## `Q5. Describe the features of interpreters and compilers and how they are different.`
 
 ## __Interpreters__
 
-
+Interpreter is a computer program that converts the source code to machine code, and often offer features such as dynamic typing and smaller program size.
 
 ## __Compilers__
 
+Compiler is a translator that takes inputs from high level programming language (C, C++, Java, etc.) and produces outputs in machine or assembly language (binary 1 & 0) that the processor can execute. Compilers checks for error, range, limits, etc.
 
+**Differences between Interpreters and Compilers are:**
+
+Interpreters:
+* Translate one statement at a time
+* Take less time to analyse source code but more time to execute
+* Used by Ruby, JavaScript, Python, etc.
+
+Compilers:
+* Scan the entire document and then translate
+* Take more time to analyse source code but less time to execute
+* Used by C, C++, Java, etc.
 
 ## `Q6. Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.`
 
 ## __Ruby__
 
-### Pros: 
+### Pros:
+
+* One of the most time-efficient languages in developing software (when using in combination with the Rails framework)
+* Well developed and highly active community
+* Can be integrated easily with frontend frameworks
+* Considered to be very secure in combination with the Rails framework
+* Easy to write, read and understand
 
 ### Cons:
+
+* Speed of application might be a concern when developing applications for a large user base
+* Still seen as a niche language and usually not the first choice for back-end developers
+* Less flexibility compares to other languages
+* Can be difficult to debug
 
 ## __JavaScript__
 
-### Pros: 
+### Pros:
+
+* Great for developing interactive websites and mobile application development
+* Wide variety of add-ons
+* Easy to learn and understand
+* Supported by all modern browsers
 
 ### Cons:
+
+* Different browser interprets JavaScript differently
+* Client-side security can be compromised
+* Only supports single inheritance
 
 ## `Q7. Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.`
 
@@ -155,6 +205,8 @@ Data transfer using **HTTP** can be intercepted and manipulated by third parties
 ### Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)
 
 ## `Q8. Explain control flow, using examples from the Ruby programming language`
+
+
 
 ## `Q9. Explain type coercion`
 
@@ -216,9 +268,9 @@ You have access to two variables: raining (boolean) and temperature (integer). I
 
 ## Markup Languages
 
-* Amelia WordPress Booking Plugin. 2022. Markup Languages: What They’re All About. [ONLINE] Available at: https://wpamelia.com/markup-languages/. [Accessed 14 March 2022].
-* ThoughtCo. 2022. What Are Markup Languages? — Web Design. [ONLINE] Available at: https://www.thoughtco.com/what-are-markup-languages-3468655. [Accessed 14 March 2022].
-* Erika Varagouli. 2022. What Each Markup Language Is Used For. [ONLINE] Available at: https://www.semrush.com/blog/markup-language/.  [Accessed 14 March 2022].
+* Amelia WordPress Booking Plugin. 2019. Markup Languages: What They’re All About. [ONLINE] Available at: https://wpamelia.com/markup-languages/. [Accessed 14 March 2022].
+* ThoughtCo. 2021. What Are Markup Languages? — Web Design. [ONLINE] Available at: https://www.thoughtco.com/what-are-markup-languages-3468655. [Accessed 14 March 2022].
+* Erika Varagouli. 2021. What Each Markup Language Is Used For. [ONLINE] Available at: https://www.semrush.com/blog/markup-language/.  [Accessed 14 March 2022].
 * Markup Language: What it is and how it works - Seobility Wiki. 2022. Markup Language: What it is and how it works - Seobility Wiki. [ONLINE] Available at: https://www.seobility.net/en/wiki/Markup_Language. [Accessed 14 March 2022].
 
 ## Packets
@@ -227,7 +279,7 @@ You have access to two variables: raining (boolean) and temperature (integer). I
 [ONLINE] Available at: https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:routing-with-redundancy/a/ip-packets. [Accessed 15 March 2022].
 * SearchNetworking. 2022. What are network packets and how do they work?. [ONLINE] Available at: https://www.techtarget.com/searchnetworking/definition/packet. [Accessed 15 March 2022].
 * Cloudflare. 2022. What is a packet? | Network packet definition. [ONLINE] Available at: https://www.cloudflare.com/en-au/learning/network-layer/what-is-a-packet/. [Accessed 15 March 2022].
-* HowStuffWorks. 2022. What is a network packet? | HowStuffWorks. [ONLINE] Available at: https://computer.howstuffworks.com/question525.htm. [Accessed 16 March 2022].
+* HowStuffWorks. 2021. What is a network packet? | HowStuffWorks. [ONLINE] Available at: https://computer.howstuffworks.com/question525.htm. [Accessed 16 March 2022].
 
 ## IP addreses (IPv4 and IPv6)
 
@@ -236,18 +288,18 @@ You have access to two variables: raining (boolean) and temperature (integer). I
 
 ## Routers and Routing
 
-* YouTube. 2022. Understanding Routing! | ICT#8 - YouTube. [ONLINE] Available at: https://www.youtube.com/watch?v=gQtgtKtvRdo. [Accessed 15 March 2022].
+* Lesics. 2019. Understanding Routing! | ICT#8 - YouTube. [ONLINE] Available at: https://www.youtube.com/watch?v=gQtgtKtvRdo. [Accessed 15 March 2022].
 * Wikipedia. 2022. Routing - Wikipedia. [ONLINE] Available at: https://en.wikipedia.org/wiki/Routing. [Accessed 15 March 2022].
 * Cloudflare. 2022. What is routing? | IP routing. [ONLINE] Available at: https://www.cloudflare.com/en-au/learning/network-layer/what-is-routing/. [Accessed 16 March 2022].
 
 ## Domains and DNS
 
-* What is a Domain?. 2022. What is a Domain?. [ONLINE] Available at: https://www.computerhope.com/jargon/d/domain.htm. [Accessed 16 March 2022].
-* YouTube. 2022. What is a Domain? - YouTube. [ONLINE] Available at: https://www.youtube.com/watch?v=TqdEvlvbmt4. [Accessed 16 March 2022].
-* wpbeginner. 2022. Beginner’s Guide: What is a Domain Name and How Do Domains Work?. [ONLINE] Available at: https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/. [Accessed 16 March 2022].
-* YouTube. 2022. What is DNS? - Introduction to Domain Name System - YouTube. [ONLINE] Available at: https://www.youtube.com/watch?v=e2xLV7pCOLI&t=11s. [Accessed 16 March 2022].
+* What is a Domain?. 2017. What is a Domain?. [ONLINE] Available at: https://www.computerhope.com/jargon/d/domain.htm. [Accessed 16 March 2022].
+* Squarespace. 2017. What is a Domain? - YouTube. [ONLINE] Available at: https://www.youtube.com/watch?v=TqdEvlvbmt4. [Accessed 16 March 2022].
+* wpbeginner. 2021. Beginner’s Guide: What is a Domain Name and How Do Domains Work?. [ONLINE] Available at: https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/. [Accessed 16 March 2022].
+* Amazon Web Services. 2016. What is DNS? - Introduction to Domain Name System - YouTube. [ONLINE] Available at: https://www.youtube.com/watch?v=e2xLV7pCOLI&t=11s. [Accessed 16 March 2022].
 * Cloudflare. 2022. What is DNS? | How DNS works. [ONLINE] Available at: https://www.cloudflare.com/en-au/learning/dns/what-is-dns/. [Accessed 16 March 2022].
-* Keith Shaw and Josh Fruhlinger. 2022. What is DNS and how does it work? | Network World. [ONLINE] Available at: https://www.networkworld.com/article/3268449/what-is-dns-and-how-does-it-work.html. [Accessed 16 March 2022].
+* Keith Shaw and Josh Fruhlinger. 2020. What is DNS and how does it work? | Network World. [ONLINE] Available at: https://www.networkworld.com/article/3268449/what-is-dns-and-how-does-it-work.html. [Accessed 16 March 2022].
 * Amazon Web Services, Inc.. 2022. What is DNS? – Introduction to DNS - AWS. [ONLINE] Available at: https://aws.amazon.com/route53/what-is-dns/. [Accessed 16 March 2022].
 
 ## TCP
@@ -259,7 +311,7 @@ You have access to two variables: raining (boolean) and temperature (integer). I
 
 ## HTTP and HTTPS
 
-* GlobalSign GMO Internet, Inc.. 2022. What's the difference between HTTP and HTTPS?. [ONLINE] Available at: https://www.globalsign.com/en/blog/the-difference-between-http-and-https. [Accessed 16 March 2022].
+* GlobalSign GMO Internet, Inc.. 2018. What's the difference between HTTP and HTTPS?. [ONLINE] Available at: https://www.globalsign.com/en/blog/the-difference-between-http-and-https. [Accessed 16 March 2022].
 * firstsiteguide.com. 2022. No page title. [ONLINE] Available at: https://firstsiteguide.com/wp-content/uploads/2016/11/http-vs-https-main-image.jpg. [Accessed 16 March 2022].
 * Wikipedia. 2022. HTTPS - Wikipedia. [ONLINE] Available at: https://en.wikipedia.org/wiki/HTTPS. [Accessed 16 March 2022].
 
@@ -271,5 +323,29 @@ You have access to two variables: raining (boolean) and temperature (integer). I
 
 ## Ruby's Data Structures
 
-* RubyGuides. 2022. An Overview of Data Structures For Ruby Developers - RubyGuides. [ONLINE] Available at: https://www.rubyguides.com/2019/04/ruby-data-structures/. [Accessed 15 March 2022].
-* 
+* RubyGuides. 2019. An Overview of Data Structures For Ruby Developers - RubyGuides. [ONLINE] Available at: https://www.rubyguides.com/2019/04/ruby-data-structures/. [Accessed 15 March 2022].
+* GeeksforGeeks. 2021. Ruby | Arrays - GeeksforGeeks. [ONLINE] Available at: https://www.geeksforgeeks.org/ruby-arrays/. [Accessed 17 March 2022].
+* How To Work with Arrays in Ruby | DigitalOcean. 2017. How To Work with Arrays in Ruby | DigitalOcean. [ONLINE] Available at: https://www.digitalocean.com/community/tutorials/how-to-work-with-arrays-in-ruby. [Accessed 17 March 2022].
+* Ruby - Arrays. 2022. Ruby - Arrays. [ONLINE] Available at: https://www.tutorialspoint.com/ruby/ruby_arrays.htm. [Accessed 17 March 2022].
+* ruby-doc.org. 2022. No page title. [ONLINE] Available at: https://ruby-doc.org/core-3.1.1/Hash.html. [Accessed 17 March 2022].
+* Ruby - Hashes. 2022. Ruby - Hashes. [ONLINE] Available at: https://www.tutorialspoint.com/ruby/ruby_hashes.htm. [Accessed 17 March 2022].
+* Ruby Hashes - A Detailed Guide. 2022. Ruby Hashes - A Detailed Guide. [ONLINE] Available at: https://launchschool.com/books/ruby/read/hashes. [Accessed 17 March 2022].
+* Hashes | Ruby for Beginners. 2022. Hashes | Ruby for Beginners. [ONLINE] Available at: http://ruby-for-beginners.rubymonstas.org/built_in_classes/hashes.html. [Accessed 17 March 2022].
+* Wikipedia. 2022. Trie - Wikipedia. [ONLINE] Available at: https://en.wikipedia.org/wiki/Trie. [Accessed 17 March 2022].
+
+## Interpreter and Compiler
+
+* freeCodeCamp.org. 2020. Interpreted vs Compiled Programming Languages: What's the Difference?. [ONLINE] Available at: https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/. [Accessed 17 March 2022].
+* Business Insider. 2019. Difference Between Compiler And Interpreter. [ONLINE] Available at: https://www.businessinsider.in/difference-between-compiler-and-interpreter/articleshow/69523408.cms. [Accessed 17 March 2022].
+* Interpreter Vs Compiler : Differences Between Interpreter and Compiler. 2022. Interpreter Vs Compiler : Differences Between Interpreter and Compiler. [ONLINE] Available at: https://www.programiz.com/article/difference-compiler-interpreter. [Accessed 17 March 2022].
+* Guru99. 2022. Compiler Vs. Interpreter: What’s the Difference?. [ONLINE] Available at: https://www.guru99.com/difference-compiler-vs-interpreter.html. [Accessed 17 March 2022].
+* GeeksforGeeks. 2021. Difference between Compiler and Interpreter - GeeksforGeeks. [ONLINE] Available at: https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/. [Accessed 17 March 2022].
+
+## Ruby & JavaScript
+
+* Pros and cons of Ruby software development | The Codest. 2020. Pros and cons of Ruby software development | The Codest. [ONLINE] Available at: https://thecodest.co/blog/pros-and-cons-of-ruby-software-development/. [Accessed 17 March 2022].
+* code-club. 2021. Ruby program 2020 - Features, Advantages and Disadvantages. [ONLINE] Available at: https://code-mentor.org/ruby-program-advantages-and-disadvantages/. [Accessed 17 March 2022].
+* Northeastern University Graduate Programs. 2020. The 10 Most Popular Programming Languages to Learn in 2022. [ONLINE] Available at: https://www.northeastern.edu/graduate/blog/most-popular-programming-languages/. [Accessed 17 March 2022].
+* Data Flair. 2022. Pros and Cons of JavaScript – Weigh them and Choose wisely!. [ONLINE] Available at: https://data-flair.training/blogs/advantages-disadvantages-javascript/. [Accessed 17 March 2022].
+
+## 
