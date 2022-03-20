@@ -209,8 +209,46 @@ Compilers:
 > - trading of shares on the stock exchange OR crypto-currencies
 >
 > ### For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way. (Word count guide: 200 words max)
->
+
+### __Intellectual property, copyright, and acknowledgement__
+
+There are many reputable sources available online to learn about intellectual property, copyright, and acknowledgement:
+
+* Business Australia: https://business.gov.au/planning/protect-your-brand-idea-or-creation/intellectual-property
+* IP Australia: https://www.ipaustralia.gov.au/ip-for-digital-business/develop/copyright
+* Austrade: https://www.austrade.gov.au/international/invest/guide-to-investing/running-a-business/understanding-australian-business-regulation/australian-intellectual-property-laws
+* Copyright Agency: https://www.copyright.com.au/about-copyright/
+
+*"In Australia, copyright law is governed by the Copyright Act 1968 (Cth) (Copyright Act), and is administered by the Department of Infrastructure, Transport, Regional Development and Communications" (IP Australia, 2022)*.
+
+As your code is the backbone of an application, you and/or your team are responsible for any legal trouble regarding intellectual property, copy right and acknowledgement regarding your code and other contents produced. So, make sure you reference any content that you took inspiration from and have a written legal agreement if you are going to use someone else’s content/code to develop your product, especially for commercial use.
+
+There are many great resources such as government websites like IP Australia, Austrade, Business.gov.au, etc. where you can learn more about your rights and responsibilities as an IT professional.  As the tech industry is still new, the laws regarding IP, copyright and acknowledgement will keep on improving, so you need to be up to date with the changes in the law to make sure your product is produced with high ethical standard and equity. By doing research and learning about the laws, you should be able to avoid legal issues and protect your intellectual property rights. If there are any issues that you’re concerned about, your best resource would be your lawyer. 
+
+### __Aggressive sales and marketing practices designed to mislead and deceive consumers__
+
+Websites where you can find trustworky information on misleading or deceptive claims or conduct:
+* Australian Competition and Consumer Commission (ACCC): https://www.accc.gov.au/publications/advertising-selling/advertising-and-selling-guide/avoid-misleading-or-deceptive-claims-or-conduct/misleading-or-deceptive-conduct
+* Consumer Affairs Victoria: https://www.consumer.vic.gov.au/products-and-services/business-practices/advertising-and-promotions/misleading-or-deceptive-conduct
+
+It is highly unethical to mislead and deceive consumers when advertising and marketing your product, especially when it’s monetised. As an IT professional it’s your responsibility to deliver products with functional features that you claimed it can do. If it’s unable to work as advertised, you will be responsible for any legal trouble for misleading or deceptive conduct. This will damage your reputation as a professional working in the tech industry.\
+
+ACCC is a great website to learn about what advertising and marketing techniques fall under the category of misleading or deceptive conduct. As a professional, you need to be aware of these unethical behaviours and to avoid applying them to your promotional contents. There are many case studies on ACCC where you can earn more about an issue and compare it with your own case to find out whether you have breached any of the laws. If it’s a complicated issue, it’s best to consult with your lawyer.
+
 > ### Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)
+
+__Case study:__
+
+The sanctions between Russia and many other countries resulted in over 400 international companies withdrawn and suspended their operation in Russia, many are well known companies such as McDonalds, Netflix, Amazon, Airbnb, etc. Russia decided to use intellectual copyright as a war tactic, the Russian government issue a decree stating that patents, utility models and industrial designs from “unfriendly” countries (such as UK, US, etc) are no longer have the rights to be compensated by Russian companies under normal obligation.
+
+This means Russian companies can take these intellectual properties and reproduce without any legal consequences, and without having to pay a cent to the copy right holders. Impacted companies can not take legal actions against these imitators in Russia. This decree means intellectual piracy is legalised in a country already “known for failing to adequately protect intangible assets” (Bonadio E. & Trapova A., 2022).
+
+Software and trademarks rights owned by western countries have also been hinted by Russian officials that it might soon be restricted. A logo resembled McDonalds’ golden arch has been adopted, applied, and registered by a Russian restaurant chain, which means companies in Russia can make themselves look like existing famous companies to exploit their reputation, products, and services.
+
+Russia may be brought to the World Trade Organisation (WTO) by affected countries as it may violate the international treaties for their unethical behaviour.
+
+As an IT professional what you can learn from this situation would be to avoid operating in a country that doesn’t have strong intellectual property and copy right law like Russia. Apply for copy right to all your designs, code, patent, etc. and research all your rights and obligations in countries that you operate and might have imitators in such as Russia and China. To avoid and protect yourself against copy right infringement claims you need to make sure you “do not copy anything, avoid non-virgin development, avoid access to prior design work, document right to use, negotiate for enhanced warranty and indemnity clauses and document your own work.” (Bowser D. H., 2016).
+
 
 ## `Q8. Explain control flow, using examples from the Ruby programming language`
 
@@ -273,8 +311,6 @@ puts age>=18 && citizen=="yes" ? "You are eligible to vote!" : "You are ineligib
 
 Type coercion (also known as implicite type conversion) is an automatic type conversion by the compiler and one of the many ways of altering an expression from one data type to another along with its value. Some methods of type coercion are ```.to_int```, ```.to_str```, etc.
 
-
-
 ## `Q10. Explain data types, using examples`
 
 | Data Type | Description                                                                                                                                                     | Example                                                                                                                                                    |
@@ -290,6 +326,8 @@ Type coercion (also known as implicite type conversion) is an automatic type con
 
 > - Identify the classes you would use to solve the problem
 > - Write a short explanation of why you would use the classes you have identified
+
+
 
 ## `Q12. Identify and explain the error in the code snippet below that is preventing correct execution of the program`
 
@@ -323,16 +361,47 @@ puts i
     arr[i] = arr[i + 1]
     arr[i + 1] = arr[i]
 ```
+The result after changing the last two lines of codes using multiple assignment:
+
+```
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+    i = i + 1 end
+puts i
+    arr[i], arr[i + 1] = arr[i + 1], arr[i]
+p arr
+```
 
 ## `Q14. Demonstrate your algorithmic thinking through completing the following two tasks, in order:`
 
 > 1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
-
+>
 > 2. Write pseudocode for the process outlined in your flowchart
 
 ## `Q15. Write pseudocode OR Ruby code for the following problem:`
 
 > You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
+
+```
+puts "Is it raining today? (enter yes or no)"
+raining = gets.chomp.to_s
+
+puts "What's the temperature in celsius today? (enter number only)"
+temperature = gets.chomp.to_i
+
+if raining == "yes"  && temperature < 15
+    puts "It's wet and cold."
+elsif raining == "no" && temperature < 15
+    puts "It's not raining but cold."
+elsif raining == "no" && temperature >= 15
+    puts "It's warm but not raining."
+elsif raining == "yes" && temperature >= 15
+    puts "It's warm but raining."
+else
+    puts "Invalid input"
+end
+```
 
 ## `Q16. ACME Corporation are hiring a new junior developer, as part of their hiring criteria they've created a "coding skill score" based on the specific competencies they require for this role; the more important the skill is for ACME corp, the more points it contributes to the "coding skill score" The skills are weighted as follows:`
 >
@@ -348,7 +417,12 @@ puts i
 > ### Write a program that allows a user to input their skills and then tells them 
 >
 > a) Their overall "coding skill score" 
+>
 > b) Skills they may want to learn, and how much each one would improve their score
+
+```
+
+```
 
 # References
 
@@ -434,14 +508,39 @@ puts i
 * Northeastern University Graduate Programs. 2020. The 10 Most Popular Programming Languages to Learn in 2022. [ONLINE] Available at: https://www.northeastern.edu/graduate/blog/most-popular-programming-languages/. [Accessed 17 March 2022].
 * Data Flair. 2022. Pros and Cons of JavaScript – Weigh them and Choose wisely!. [ONLINE] Available at: https://data-flair.training/blogs/advantages-disadvantages-javascript/. [Accessed 17 March 2022].
 
+## Ethical Issues
+
+* Intellectual property | business.gov.au. 2022. Intellectual property | business.gov.au. [ONLINE] Available at: https://business.gov.au/planning/protect-your-brand-idea-or-creation/intellectual-property. [Accessed 20 March 2022].
+* Copyright for digital products | IP Australia. 2022. Copyright for digital products | IP Australia. [ONLINE] Available at: https://www.ipaustralia.gov.au/ip-for-digital-business/develop/copyright. [Accessed 20 March 2022].
+* Australian Intellectual Property laws - Austrade . 2022. Australian Intellectual Property laws - Austrade . [ONLINE] Available at: https://www.austrade.gov.au/international/invest/guide-to-investing/running-a-business/understanding-australian-business-regulation/australian-intellectual-property-laws. [Accessed 20 March 2022].
+* Copyright Agency. 2022. About Copyright - Copyright Agency. [ONLINE] Available at: https://www.copyright.com.au/about-copyright/. [Accessed 20 March 2022].
+* Copyright (including software) | Business Queensland. 2022. Copyright (including software) | Business Queensland. [ONLINE] Available at: https://www.business.qld.gov.au/running-business/protecting-business/ip-kit/browse-ip-topics/frequently-asked-questions-faqs/copyright-including-software. [Accessed 20 March 2022].
+* Australian Competition and Consumer Commission. 2022. Advertising and selling guide - Misleading or deceptive conduct | ACCC. [ONLINE] Available at: https://www.accc.gov.au/publications/advertising-selling/advertising-and-selling-guide/avoid-misleading-or-deceptive-claims-or-conduct/misleading-or-deceptive-conduct. [Accessed 20 March 2022].
+* Misleading or deceptive conduct - Consumer Affairs Victoria . 2022. Misleading or deceptive conduct - Consumer Affairs Victoria . [ONLINE] Available at: https://www.consumer.vic.gov.au/products-and-services/business-practices/advertising-and-promotions/misleading-or-deceptive-conduct. [Accessed 20 March 2022].
+* The National Law Review. 2022. Russian and Ukrainian War Affects Tech and Intellectual Property. [ONLINE] Available at: https://www.natlawreview.com/article/russian-war-affects-tech-and-ip. [Accessed 20 March 2022].
+* Enrico Bonadio & Alina Trapova. 2022. How Russia is using intellectual property as a war tactic. [ONLINE] Available at: https://theconversation.com/how-russia-is-using-intellectual-property-as-a-war-tactic-179260. [Accessed 20 March 2022].
+* Over 400 Companies Have Withdrawn from Russia—But Some Remain | Yale School of Management. 2022. Over 400 Companies Have Withdrawn from Russia—But Some Remain | Yale School of Management. [ONLINE] Available at: https://som.yale.edu/story/2022/over-400-companies-have-withdrawn-russia-some-remain. [Accessed 20 March 2022].
+* David H. Bowser. 2016. Six steps to protect against copyright infringement claims - AIA. [ONLINE] Available at: https://www.aia.org/articles/49506-six-steps-to-protect-against-copyright-infri. [Accessed 20 March 2022].
+
 ## Control FLow
 
 * Nayak N, 2020, Control Flow, Academy of Information Technology
 * Wikipedia. 2022. Control flow - Wikipedia. [ONLINE] Available at: https://en.wikipedia.org/wiki/Control_flow. [Accessed 18 March 2022].
 * Control flow - MDN Web Docs Glossary: Definitions of Web-related terms | MDN. 2022. Control flow - MDN Web Docs Glossary: Definitions of Web-related terms | MDN. [ONLINE] Available at: https://developer.mozilla.org/en-US/docs/Glossary/Control_flow. [Accessed 18 March 2022].
-* 
+
+## Type Coercion
+
+* Type coercion - MDN Web Docs Glossary: Definitions of Web-related terms | MDN. 2021. Type coercion - MDN Web Docs Glossary: Definitions of Web-related terms | MDN. [ONLINE] Available at: https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion. [Accessed 19 March 2022].
+* Wikipedia. 2022. Type conversion - Wikipedia. [ONLINE] Available at: https://en.wikipedia.org/wiki/Type_conversion. [Accessed 19 March 2022].
+* Subvisual | RubyBits: Type coercion. 2016. Subvisual | RubyBits: Type coercion. [ONLINE] Available at: https://subvisual.com/blog/posts/81-rubybits-br-type-coercion/. [Accessed 19 March 2022].
+* Tom de Bruijn. 2018. #to_s or #to_str? Explicitly casting vs. implicitly coercing types in Ruby | AppSignal Blog. [ONLINE] Available at: https://blog.appsignal.com/2018/09/25/explicitly-casting-vs-implicitly-coercing-types-in-ruby.html. [Accessed 19 March 2022].
+
 
 ## Data Types
+
 * GeeksforGeeks. 2019. Ruby | Data Types - GeeksforGeeks. [ONLINE] Available at: https://www.geeksforgeeks.org/ruby-data-types/. [Accessed 18 March 2022].
 * Built-In Data Types | Ruby for Beginners. 2022. Built-In Data Types | Ruby for Beginners. [ONLINE] Available at: http://ruby-for-beginners.rubymonstas.org/built_in_classes.html. [Accessed 18 March 2022].
 * EDUCBA. 2022. Ruby Data Types | Top 7 Ruby Data Types with Examples. [ONLINE] Available at: https://www.educba.com/ruby-data-types/. [Accessed 18 March 2022].
+
+## Multiple Assignment
+* File: assignment.rdoc [Ruby 2.6.4]. 2022. File: assignment.rdoc [Ruby 2.6.4]. [ONLINE] Available at: https://ruby-doc.org/core-2.6.4/doc/syntax/assignment_rdoc.html#label-Multiple+Assignment. [Accessed 20 March 2022].
